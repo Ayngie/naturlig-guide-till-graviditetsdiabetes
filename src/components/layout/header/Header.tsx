@@ -19,7 +19,7 @@ export const Header = ( {setBurgerMenuIsOpen}:IHeaderProps) => {
     }, [open, setBurgerMenuIsOpen]);
 
   return (
-    <StyledHeader id="/natural-guide-to-gestational-diabetes/">
+    <StyledHeader id="/naturlig-guide-till-graviditetsdiabetes/">
       <PageLogo/>
       <DesktopNavBar/>
       <HamburgerMenuWrapper>

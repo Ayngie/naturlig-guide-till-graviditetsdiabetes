@@ -78,7 +78,7 @@ export const Home = () => {
         
         <Paragraph>Jättekul om jag kan hjälpa någon med mina tips, jag vet vilken djungel det är. Lycka till och må så gott! &#128149;</Paragraph>
 
-        <Paragraph> Läs mer på: <StyledLinks><Link to="/natural-guide-to-gestational-diabetes/about"> 'Om detta projekt' </Link></StyledLinks>.</Paragraph>
+        <Paragraph> Läs mer på: <StyledLinks><Link to="/naturlig-guide-till-graviditetsdiabetes/about"> 'Om detta projekt' </Link></StyledLinks>.</Paragraph>
         
         <LinkToTop/>
 

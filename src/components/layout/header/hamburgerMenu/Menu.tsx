@@ -16,7 +16,7 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
   return (
     <StyledMenu open={open} aria-hidden={!isHidden} data-cy="mobile-nav-menu">
       <NavLink
-        to={"/natural-guide-to-gestational-diabetes/"}
+        to={"/naturlig-guide-till-graviditetsdiabetes/"}
         end
         data-cy="mobile-nav-home-link"
         onClick={handleClick}
@@ -25,7 +25,7 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
         Start
       </NavLink>
       <NavLink
-        to={"/natural-guide-to-gestational-diabetes/life"}
+        to={"/naturlig-guide-till-graviditetsdiabetes/life"}
         data-cy="mobile-nav-life-link"
         onClick={handleClick}
         tabIndex={tabIndex}
@@ -33,7 +33,7 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
         Levnadsråd
       </NavLink>
       <NavLink
-        to={"/natural-guide-to-gestational-diabetes/training"}
+        to={"/naturlig-guide-till-graviditetsdiabetes/training"}
         data-cy="mobile-nav-training-link"
         onClick={handleClick}
         tabIndex={tabIndex}
@@ -41,7 +41,7 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
         Träning
       </NavLink>
       <NavLink
-        to={"/natural-guide-to-gestational-diabetes/food"}
+        to={"/naturlig-guide-till-graviditetsdiabetes/food"}
         data-cy="mobile-nav-food-link"
         onClick={handleClick}
         tabIndex={tabIndex}
@@ -49,7 +49,7 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
         Kost
       </NavLink>
       <NavLink
-        to={"/natural-guide-to-gestational-diabetes/recipes"}
+        to={"/naturlig-guide-till-graviditetsdiabetes/recipes"}
         data-cy="mobile-nav-recipes-link"
         onClick={handleClick}
         tabIndex={tabIndex}
@@ -57,7 +57,7 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
         Recept
       </NavLink>
       <NavLink
-        to={"/natural-guide-to-gestational-diabetes/search"}
+        to={"/naturlig-guide-till-graviditetsdiabetes/search"}
         data-cy="mobile-nav-search-link"
         onClick={handleClick}
         tabIndex={tabIndex}
@@ -65,7 +65,7 @@ export const Menu = ({ open, setOpen }: IMenuProps) => {
         Sök livsmedel
       </NavLink>
       <NavLink
-        to={"/natural-guide-to-gestational-diabetes/about"}
+        to={"/naturlig-guide-till-graviditetsdiabetes/about"}
         data-cy="mobile-nav-about-link"
         onClick={handleClick}
         tabIndex={tabIndex}

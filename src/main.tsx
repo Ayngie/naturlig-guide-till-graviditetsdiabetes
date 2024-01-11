@@ -19,32 +19,32 @@ export const router = createBrowserRouter([
     errorElement: <ErrorPage404></ErrorPage404>,
     children: [
       {
-        path: "/natural-guide-to-gestational-diabetes",
+        path: "/naturlig-guide-till-graviditetsdiabetes",
         element: <Home></Home>,
         index: true,
       },
       {
-        path: "/natural-guide-to-gestational-diabetes/life",
+        path: "/naturlig-guide-till-graviditetsdiabetes/life",
         element: <LifeAdvice></LifeAdvice>,
       },
       {
-        path: "/natural-guide-to-gestational-diabetes/training",
+        path: "/naturlig-guide-till-graviditetsdiabetes/training",
         element: <TrainingAdvice></TrainingAdvice>,
       },
       {
-        path: "/natural-guide-to-gestational-diabetes/food",
+        path: "/naturlig-guide-till-graviditetsdiabetes/food",
         element: <FoodAdvice></FoodAdvice>,
       },
       {
-        path: "/natural-guide-to-gestational-diabetes/recipes",
+        path: "/naturlig-guide-till-graviditetsdiabetes/recipes",
         element: <RecipeTips></RecipeTips>,
       },
       {
-        path: "/natural-guide-to-gestational-diabetes/search",
+        path: "/naturlig-guide-till-graviditetsdiabetes/search",
         element: <SearchFood></SearchFood>,
       },
       {
-        path: "/natural-guide-to-gestational-diabetes/about",
+        path: "/naturlig-guide-till-graviditetsdiabetes/about",
         element: <AboutProject></AboutProject>,
       },
     ],
