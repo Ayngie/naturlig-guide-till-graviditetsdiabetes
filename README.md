@@ -1,22 +1,24 @@
-# Your Natural Guide To Gestational Diabetes (GDM)
+# Din Naturliga Guide Till Graviditetsdiabetes (GDM)
+OBS! Detta projekt finns i identisk upplaga med engelsk titel.
 
-## Description
-This is a degree project for Frontend Developer studies at Medieinstitutet in Stockholm (2022-2024).
+## Beskrivning
+Detta är ett examensarbete för Frontenduvecklarstudier på Medieinstitutet i Stockholm (2022-2024).
 
-I chose to build an app that gives natural advice and info on how to deal with gestational diabetes mellitus (GDM).
-The app also allows the possibility to searh for nutritional info of different foods (info is dynamically retrieved from a JSON-file), the source of this nutritional information is Livsmedelsverket in Sweden.
+Jag valde att bygga en app som ger naturliga tips och info på hur man kan hantera en graviditetsdiabetes (GDM).
+Appen har även en sökfunktion för att söka fram ett livsmedels näringsvärden (datan hämtas dynamiskt från en JSON-fil), källan för denna livsmedelsdata är Livsmedelsverket i Sverige.
 
-The project is prepared for implementing api-calls to: 
-- Svenska Livsmedelsverket (LSV). However - for this a proxy-server is needed as api-calls from the frontend get access denied due to CORS.
-- FoodCentral API (usda.gov) for adding the feature of searching info on foods in english.
+Projektet är förberett för en implementering av api-anrop till: 
+- Svenska Livsmedelsverket (LSV). Dock kräver detta en proxy-server då api-anropen från frontenden får nekad åtkomst pga CORS.
+- FoodCentral API (usda.gov) för att kunna lägga till engelskt sök.
 
-This application is built in React + TypeScript + Vite.
+Denna applikation är byggd i React + TypeScript + Vite.
 
-The project language is swedish.
+Projektets språk är svenska.
 
-N.B. As GitHub does not support SPA's (Single Page Applications) - if you refresh any of the 'subpages' (other than the startpage) you will get a 404 from GitHub. If this happens - to fix  this - please go to the startpage url (https://ayngie.github.io/natural-guide-to-gestational-diabetes/) to start again, then navigate with help of the navbar, and do not refresh the page deployed with GitHub Actions :)
+OBS! Då GitHub inte stödjer SPA's (Single Page Applications) innebär detta att om du uppdaterar någon av applikationens 'subpages' (annat än startsidan) får du en 404 från GitHub. 
+Om detta sker - för att fixa detta - vänligen återgå till startsidans url (https://ayngie.github.io/naturlig-guide-till-graviditetsdiabetes/), därefter kan du navigera mha navbar, och uppdatera inte sidan som är deployad med GitHub Actions :)
 
-## Techniques used (shields/badges)
+## Tekniker använda (shields/badges)
 ![React badge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB/to/img.png)
 ![React Router badge](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white/to/img.png)
 ![Styled Components badge](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white/to/img.png)
@@ -42,7 +44,7 @@ N.B. As GitHub does not support SPA's (Single Page Applications) - if you refres
 
 ---
 
-## Git commit convention:
+## Git commit konvention:
 - 👷 build: - *project build-up*
 - 📝 docs: - *documentation / README*
 - ✨ feat: - *introduces a new feature to the codebase*
@@ -56,32 +58,32 @@ N.B. As GitHub does not support SPA's (Single Page Applications) - if you refres
 
 ---
 
-## Screenshot of project:
+## Skärmbild på projektet:
 ![Demonstration of my degree project](./public/Project-screenshot.png?raw=true "Your Natural Guide to Gestational Diabetes")
 
 ---
 
-## Run locally:
+## Kör lokalt:
 
-Clone the project
-
-```terminal
-  git clone https://github.com/Ayngie/natural-guide-to-gestational-diabetes.git
-```
-
-Go to the project directory
+Klona ned projektet
 
 ```terminal
-  cd natural-guide-to-gestational-diabetes
+  git clone https://github.com/Ayngie/naturlig-guide-till-graviditetsdiabetes.git
 ```
 
-Install dependencies
+Gå till projectmappen
+
+```terminal
+  cd naturlig-guide-till-graviditetsdiabetes
+```
+
+Installera dependencies
 
 ```terminal
   npm install
 ```
 
-Start the server
+Starta servern
 
 ```terminal
   npm run dev
