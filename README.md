@@ -1,5 +1,7 @@
 # Din Naturliga Guide Till Graviditetsdiabetes (GDM)
-OBS! Detta projekt finns i identisk upplaga med engelsk titel.
+OBS! Detta projekt finns i identisk upplaga med engelsk titel. 
+
+Were you looking for this projects repo with en english title and Readme? Find the [english version here](https://github.com/Ayngie/natural-guide-to-gestational-diabetes).
 
 ## Beskrivning
 Detta är ett examensarbete för Frontenduvecklarstudier på Medieinstitutet i Stockholm (2022-2024).
