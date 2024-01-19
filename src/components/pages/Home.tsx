@@ -22,9 +22,9 @@ export const Home = () => {
 
   return (
     <StyledFullSection>
-      <StyledHeading>Hej!</StyledHeading>
+      <StyledHeading>Välkommen!</StyledHeading>
       <ParagraphWrapper>
-        <Paragraph>Välkommen till din naturliga guide för att hantera och förebygga <BoldText>graviditetsdiabetes (GDM)</BoldText>. &#129328;</Paragraph>
+        <Paragraph>Välkommen till Graviditetsdiabetesappen - din naturliga guide för att hantera och förebygga <BoldText>graviditetsdiabetes (GDM)</BoldText>. &#129328;</Paragraph>
 
         <h3>Vad är GDM?</h3>
         <Paragraph>
