@@ -8,6 +8,23 @@ export const ParagraphWrapper = styled.div `
     align-items: center;
 `;
 
+export const Breadcrumbs = styled.section `
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+    padding: 3%;
+
+    @media screen and (min-width: 1000px) {
+        padding: 1%;
+        width: 50%;
+        justify-content: left;
+        margin-left: 15%;
+
+    }
+
+`;
 /* ----------------------  Full page Layout  ---------------------- */
 
 export const StyledFullSection = styled.section `
@@ -41,6 +58,14 @@ export const StyledAboutSection = styled(StyledFullSection) `
     }
 `;
 
+export const StyledErrorPage = styled(StyledFullSection) `
+    height: 100vh;
+
+    /* @media screen and (min-width: 1000px) {
+        height: 100vh; //för att det skulle bli blått ända ned i desktop...
+    } */
+`;
+
 
 /* ----------------------  Split page Layout  ---------------------- */
 
@@ -53,6 +78,7 @@ export const StyledGrid = styled.section `
         /* justify-content: center; */
     }
 `;
+
 export const StyledAside = styled.aside `
     background-color: aliceblue;
     width: 100%;
@@ -67,7 +93,16 @@ export const StyledAside = styled.aside `
         border-bottom-right-radius: 15px;
         border-left: none;
     }
+
+    @media screen and (min-width: 1500px) {
+        padding-left: 4%;
+    }
+    @media screen and (min-width: 2000px) {
+        padding-left: 5%;
+    }
+
 `;
+
 export const StyledSplitSection = styled.section `
     background-color: aliceblue;
     display: flex;
@@ -100,6 +135,15 @@ export const StyledSideNav = styled.ul`
         gap: 0%;
         padding-top: 60%;
         }
+    
+    @media screen and (min-width: 1500px) {
+        padding-top: 45%;
+    }
+
+    @media screen and (min-width: 2000px) {
+        padding-top: 30%;
+    }
+
 `;
 
 
@@ -138,6 +182,15 @@ export const IngredientsWrapper = styled.section `
 `;
 
 /* ----------------------  Search  ---------------------- */
+
+export const StyledFullSearchResults = styled(StyledArticle) `
+    padding: 0%;
+    @media screen and (min-width: 1000px) {
+        padding: 5%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+`;
 
 export const StyledFoodItemArticle = styled.article `
     margin: 5%;

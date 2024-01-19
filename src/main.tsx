@@ -10,6 +10,7 @@ import { RecipeTips } from "./components/pages/RecipeTips";
 import { SearchFood } from "./components/pages/SearchFood";
 import { AboutProject } from "./components/pages/AboutProject";
 import { ErrorPage404 } from './components/pages/ErrorPage404';
+import { StyledLoader } from './components/styles/search/StyledLoader';
 import './index.scss'
 
 export const router = createBrowserRouter([
@@ -53,6 +54,6 @@ export const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <RouterProvider router={router}></RouterProvider>
+    <RouterProvider router={router} fallbackElement={<StyledLoader/>}></RouterProvider>
   </React.StrictMode>,
 )

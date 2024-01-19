@@ -3,8 +3,9 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import articles from "../../data/articles.json";
 import { IArticlesData } from "../../models/IArticlesData";
 import { LinkToTop } from "../LinkToTop";
-import { StyledGrid, StyledAside, StyledSideNav, StyledSplitSection, StyledArticle, ParagraphWrapper } from "../styles/StyledWrappers";
-import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLink, TextLink } from "../styles/StyledTexts";
+import { StyledGrid, StyledAside, StyledSideNav, StyledSplitSection, StyledArticle, ParagraphWrapper, Breadcrumbs } from "../styles/StyledWrappers";
+import { StyledHeadingMobile, StyledHeadingDesktop, Paragraph, StyledSideNavLink, TextLink, StyledBreadcrumb } from "../styles/StyledTexts";
+import { ForwardSlash } from '../ForwardSlash';
 
 export const FoodAdvice = () => {
   useEffect(() => {
@@ -46,6 +47,11 @@ export const FoodAdvice = () => {
 
   return (
     <section>
+      <Breadcrumbs>
+        <StyledBreadcrumb href="/naturlig-guide-till-graviditetsdiabetes/" aria-label="Link to Home">Start</StyledBreadcrumb> <ForwardSlash/>
+        <p>Kost</p> 
+      </Breadcrumbs>
+
       <StyledHeadingMobile>Kostråd för ett stabilare blodsocker</StyledHeadingMobile>
       <StyledGrid>
         <StyledAside>
