@@ -27,7 +27,7 @@ export const AboutProject = () => {
   return (
     <>
       <Breadcrumbs>
-        <StyledBreadcrumb href="/naturlig-guide-till-graviditetsdiabetes/" aria-label="Link to Home">Start</StyledBreadcrumb> <ForwardSlash/>
+        <StyledBreadcrumb to="/naturlig-guide-till-graviditetsdiabetes/" aria-label="Link to Home">Start</StyledBreadcrumb> <ForwardSlash/>
         <p>Om detta projekt</p> 
       </Breadcrumbs>
 
